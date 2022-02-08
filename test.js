@@ -20,7 +20,7 @@ function containerQty() {
             //we need to parse the json response to access
             data = JSON.parse(data)
             console.log("Number of Total Containers = " + data.Containers);
-            console.log("Number of Stopped Containers = " + data.CContainersStopped);
+            console.log("Number of Stopped Containers = " + data.ContainersStopped);
             console.log("Number of Paused Containers = " + data.ContainersPaused);
             console.log("Number of Running Containers = " + data.ContainersRunning);
 
